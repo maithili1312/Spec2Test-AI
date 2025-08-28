@@ -1,0 +1,9 @@
+streamlit
+faiss-cpu
+numpy
+sentence-transformers
+streamlit-lottie
+PyPDF2
+python-docx
+python-pptx
+pyshark
