@@ -174,7 +174,7 @@ MAX_FILE_SIZE = 200 * 1024 * 1024  # 200 MB
 GROQ_API_KEY = "my key"
 client = Groq(api_key=GROQ_API_KEY)
 
-#GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+#GROQ_API_KEY = os.getenv("GROQ_API_KEY", "your_key")
 #client = Groq(api_key=GROQ_API_KEY)
 
 # --- Load File Content ---
@@ -281,3 +281,4 @@ if st.button("🚀 Generate Test Cases"):
                     st.download_button("📥 Download as CSV", csv, "test_cases.csv", "text/csv")
     else:
         st.warning("Please upload a file and enter a prompt before generating.")
+
