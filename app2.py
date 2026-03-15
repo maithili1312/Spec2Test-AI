@@ -170,8 +170,8 @@ MAX_FILE_SIZE = 200 * 1024 * 1024  # 200 MB
 
 
 
-# Set your Groq API key here or in .env file
-GROQ_API_KEY = "my key"
+# Set your Groq API key here 
+GROQ_API_KEY = "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"
 client = Groq(api_key=GROQ_API_KEY)
 
 #GROQ_API_KEY = os.getenv("GROQ_API_KEY", "your_key")
