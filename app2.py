@@ -225,7 +225,8 @@ Do NOT use labels like 'Test Case 1'. Just plain rows with || separator.
 No headers, no markdown, no numbering, no explanations — only valid data rows.
 """
         response = client.chat.completions.create(
-            model="llama3-70b-8192"
+            model="llama-3.3-70b-versatile"
+            
 
             ,  # Very fast & accurate Groq model
             messages=[{"role": "user", "content": input_text}],
